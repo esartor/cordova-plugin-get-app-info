@@ -43,7 +43,7 @@ In order for the plugin to be injectable into your providers/components and to u
     ```
     import { Injectable } from '@angular/core';
     import { Plugin, Cordova, IonicNativePlugin } from '@ionic-native/core';
-
+    
     @Plugin({
       pluginName: 'GetAppInfo',
       plugin: 'cordova-plugin-get-app-info',
@@ -57,15 +57,15 @@ In order for the plugin to be injectable into your providers/components and to u
       getAppIcon(packageName: string): Promise<string> {
         return;
       }
-
+    
       @Cordova()
-      getAppLabel(packageName: string): Promise<string> {
+      getAppLabel(packageName: string): Promise<string> {
         return;
       }
     }
     ```
 
-Read [this guide](https://github.com/ionic-team/ionic-native/blob/master/DEVELOPER.md) for a full explanation on how to wrap Cordova plugins with Ionic Native.
+    Read [this guide](https://github.com/ionic-team/ionic-native/blob/master/DEVELOPER.md) for a full explanation on how to wrap Cordova plugins with Ionic Native.
 
 3. Inject the plugin into your providers/components and access the `getAppLabel` and `getAppIcon` methods which will return a promise. Example code:
 

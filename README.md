@@ -85,7 +85,9 @@ In order for the plugin to be injectable into your providers/components and to u
 
       myMethod() {
         if (this.platform.is(CORDOVA_PLATFORM)) {
-          getAppInfo.getAppIcon('random.package.id');
+          getAppInfo.getAppIcon('random.package.id').then((base64Icon) => {
+            console.log(base64Icon);
+          });
         }
       }
     }

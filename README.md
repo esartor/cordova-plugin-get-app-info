@@ -3,7 +3,7 @@
 A Cordova plugin to get the icon and label of an app based on its package name.
 
 
-## Install
+## Install
 
 ```
 cordova plugin add cordova-plugin-get-app-info

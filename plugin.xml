@@ -4,7 +4,7 @@
   id="cordova-plugin-get-app-info"
   version="1.0.0">
   <name>Get App Info</name>
-  <description>Get the icon and label of an app based on its package name</description>
+  <description>A Cordova plugin to get the icon and label of an app based on its package name</description>
   <license>MIT</license>
   <keywords></keywords>
   <repo>https://github.com/esartor/cordova-plugin-get-app-info.git</repo>

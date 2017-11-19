@@ -7,5 +7,5 @@
       "android"
     ]
   },
-  "description": "Get the icon and label of an app based on its package name"
+  "description": "A Cordova plugin to get the icon and label of an app based on its package name"
 }

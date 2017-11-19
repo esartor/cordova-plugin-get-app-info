@@ -1,11 +1,26 @@
 {
   "name": "cordova-plugin-get-app-info",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esartor/cordova-plugin-get-app-info.git"
+  },
+  "author": "Emanuel Sartor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esartor/cordova-plugin-get-app-info/issues"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
   "cordova": {
     "id": "cordova-plugin-get-app-info",
     "platforms": [
       "android"
     ]
   },
+  "homepage": "https://github.com/esartor/cordova-plugin-get-app-info",
   "description": "A Cordova plugin to get the icon and label of an app based on its package name"
 }

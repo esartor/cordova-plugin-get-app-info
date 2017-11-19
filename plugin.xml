@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+  id="cordova-plugin-get-app-info"
+  version="1.0.0">
+  <name>Get App Info</name>
+  <description>Get the icon and label of an app based on its package name</description>
+  <license>MIT</license>
+  <keywords></keywords>
+  <repo>https://github.com/esartor/cordova-plugin-get-app-info.git</repo>
+  <issue>https://github.com/esartor/cordova-plugin-get-app-info/issues</issue>
+
+  <platform name="android">
+    <js-module src="www/plugin.js" name="plugin">
+      <runs/>
+
+      <!-- This is the window variable name you want, like window.GetAppInfo -->
+      <clobbers target="cordova.plugins.GetAppInfo" />
+    </js-module>
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="GetAppInfo">
+        <param name="android-package" value="com.ratherplus.GetAppInfo" />
+        <param name="onload" value="true" />
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/com/ratherplus/GetAppInfo.java" target-dir="src/com/ratherplus/" />
+  </platform>
+</plugin>

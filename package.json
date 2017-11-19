@@ -1,0 +1,11 @@
+{
+  "name": "cordova-plugin-get-app-info",
+  "version": "1.0.0",
+  "cordova": {
+    "id": "cordova-plugin-get-app-info",
+    "platforms": [
+      "android"
+    ]
+  },
+  "description": "Get the icon and label of an app based on its package name"
+}
